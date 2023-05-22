@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coach's Answer</title>
+  </head>
+  <body>
+    <h1>Question: <%= params[:question] %></h1>
+    <h2>Answer: <%= @answer %></h2>
+      <%= link_to "Ask a new question", ask_path %>
+  </body>
+</html>
